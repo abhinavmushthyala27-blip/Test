@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import {
+  Box,
   Button,
   Dialog,
   DialogActions,
@@ -65,10 +66,26 @@ export default function TaskDialog({ open, task, onClose, onSubmit }) {
   };
 
   return (
-    <Dialog open={open} onClose={onClose} fullWidth maxWidth="sm">
-      <DialogTitle>{task ? 'Edit task' : 'Add task'}</DialogTitle>
+    <Dialog
+      open={open}
+      onClose={onClose}
+      fullWidth
+      maxWidth="sm"
+      PaperProps={{
+        sx: {
+          borderRadius: 3,
+          boxShadow: '0 32px 80px rgba(15, 23, 42, 0.22)',
+        },
+      }}
+    >
+      <DialogTitle sx={{ pb: 1 }}>
+        <Box sx={{ fontWeight: 900 }}>{task ? 'Edit task' : 'Add task'}</Box>
+        <Box component="span" sx={{ display: 'block', mt: 0.5, color: 'text.secondary', fontSize: 14 }}>
+          Keep the task focused, searchable, and easy to move across the board.
+        </Box>
+      </DialogTitle>
       <form onSubmit={handleSubmit}>
-        <DialogContent>
+        <DialogContent sx={{ pt: 2 }}>
           <Stack spacing={2} sx={{ pt: 1 }}>
             <TextField
               label="Name"
@@ -112,6 +129,7 @@ export default function TaskDialog({ open, task, onClose, onSubmit }) {
               value={form.imageUrl}
               onChange={handleChange('imageUrl')}
               placeholder="https://example.com/image.jpg"
+              helperText="Optional. Upload is intentionally out of scope."
             />
             <FormControlLabel
               control={<Switch checked={form.isFavorite} onChange={handleChange('isFavorite')} />}
@@ -119,7 +137,7 @@ export default function TaskDialog({ open, task, onClose, onSubmit }) {
             />
           </Stack>
         </DialogContent>
-        <DialogActions>
+        <DialogActions sx={{ px: 3, pb: 3 }}>
           <Button onClick={onClose}>Cancel</Button>
           <Button type="submit" variant="contained">
             Save

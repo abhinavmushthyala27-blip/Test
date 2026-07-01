@@ -16,9 +16,11 @@ import {
   Typography,
 } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
-import { TASK_COLUMNS, TASK_STATUS_LABELS } from '../constants/taskStatus';
+import { TASK_COLUMNS, TASK_STATUS_LABELS, TASK_STATUS_META } from '../constants/taskStatus';
 
 export default function TaskCard({ task, onEdit, onDelete, onUpdate }) {
+  const statusMeta = TASK_STATUS_META[task.status];
+
   const handleFavoriteClick = () => {
     onUpdate(task.id, { ...task, isFavorite: !task.isFavorite });
   };
@@ -28,21 +30,50 @@ export default function TaskCard({ task, onEdit, onDelete, onUpdate }) {
   };
 
   return (
-    <Card variant="outlined" sx={{ borderRadius: 2 }}>
-      <CardContent>
+    <Card
+      variant="outlined"
+      sx={{
+        borderRadius: 2,
+        bgcolor: 'rgba(255, 255, 255, 0.94)',
+        boxShadow: '0 16px 36px rgba(15, 23, 42, 0.08)',
+        transition: 'transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease',
+        '&:hover': {
+          transform: 'translateY(-2px)',
+          boxShadow: '0 22px 48px rgba(15, 23, 42, 0.12)',
+          borderColor: statusMeta?.accent ?? 'primary.main',
+        },
+      }}
+    >
+      <CardContent sx={{ pb: 1.5 }}>
         <Stack direction="row" alignItems="flex-start" justifyContent="space-between" spacing={1}>
-          <Box>
+          <Box sx={{ minWidth: 0 }}>
             <Typography
               component={RouterLink}
               to={`/tasks/${task.id}`}
               variant="subtitle1"
               color="text.primary"
-              sx={{ fontWeight: 700, textDecoration: 'none' }}
+              sx={{
+                display: 'inline-block',
+                fontWeight: 800,
+                textDecoration: 'none',
+                overflowWrap: 'anywhere',
+                '&:hover': { color: 'primary.main' },
+              }}
             >
               {task.name}
             </Typography>
             {task.description && (
-              <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{
+                  mt: 0.75,
+                  display: '-webkit-box',
+                  WebkitLineClamp: 2,
+                  WebkitBoxOrient: 'vertical',
+                  overflow: 'hidden',
+                }}
+              >
                 {task.description}
               </Typography>
             )}
@@ -53,14 +84,26 @@ export default function TaskCard({ task, onEdit, onDelete, onUpdate }) {
               color={task.isFavorite ? 'warning' : 'default'}
               size="small"
               onClick={handleFavoriteClick}
+              sx={{
+                bgcolor: task.isFavorite ? '#fffbeb' : 'transparent',
+                '&:hover': { bgcolor: task.isFavorite ? '#fef3c7' : 'grey.100' },
+              }}
             >
               {task.isFavorite ? <StarIcon /> : <StarBorderIcon />}
             </IconButton>
           </Tooltip>
         </Stack>
 
-        <Stack direction="row" alignItems="center" spacing={1.5} sx={{ mt: 2 }}>
-          <Chip size="small" label={TASK_STATUS_LABELS[task.status]} />
+        <Stack direction="row" alignItems="center" spacing={1.5} sx={{ mt: 2, flexWrap: 'wrap', rowGap: 1 }}>
+          <Chip
+            size="small"
+            label={TASK_STATUS_LABELS[task.status]}
+            sx={{
+              bgcolor: statusMeta?.background,
+              color: statusMeta?.accent,
+              fontWeight: 800,
+            }}
+          />
           {task.deadline && (
             <Typography variant="caption" color="text.secondary">
               Due {new Date(task.deadline).toLocaleDateString()}
@@ -69,13 +112,17 @@ export default function TaskCard({ task, onEdit, onDelete, onUpdate }) {
         </Stack>
       </CardContent>
 
-      <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2 }}>
+      <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2, pt: 0 }}>
         <Select
           size="small"
           value={task.status}
           onChange={handleStatusChange}
           inputProps={{ 'aria-label': `Status for ${task.name}` }}
-          sx={{ minWidth: 136 }}
+          sx={{
+            minWidth: 136,
+            bgcolor: 'grey.50',
+            '& .MuiSelect-select': { py: 0.85 },
+          }}
         >
           {TASK_COLUMNS.map((status) => (
             <MenuItem key={status.value} value={status.value}>
