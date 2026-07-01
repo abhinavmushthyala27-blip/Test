@@ -1,0 +1,15 @@
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\bin\Debug\net8.0\RamSoft.Application.deps.json
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\bin\Debug\net8.0\RamSoft.Application.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\bin\Debug\net8.0\RamSoft.Application.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\bin\Debug\net8.0\RamSoft.Domain.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\bin\Debug\net8.0\RamSoft.Domain.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.csproj.AssemblyReference.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.AssemblyInfoInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.AssemblyInfo.cs
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.csproj.CoreCompileInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft..C96EDCD7.Up2Date
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\refint\RamSoft.Application.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\RamSoft.Application.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Application\obj\Debug\net8.0\ref\RamSoft.Application.dll

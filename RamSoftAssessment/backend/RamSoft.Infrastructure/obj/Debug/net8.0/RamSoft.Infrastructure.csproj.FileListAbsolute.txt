@@ -1,0 +1,17 @@
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Infrastructure.deps.json
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Infrastructure.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Infrastructure.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Application.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Domain.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Application.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\bin\Debug\net8.0\RamSoft.Domain.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.AssemblyInfo.cs
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft..9CB6285B.Up2Date
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\refint\RamSoft.Infrastructure.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\RamSoft.Infrastructure.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Infrastructure\obj\Debug\net8.0\ref\RamSoft.Infrastructure.dll

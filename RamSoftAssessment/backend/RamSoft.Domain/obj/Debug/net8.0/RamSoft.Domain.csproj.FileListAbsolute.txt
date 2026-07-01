@@ -1,0 +1,11 @@
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.AssemblyInfoInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.AssemblyInfo.cs
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\bin\Debug\net8.0\RamSoft.Domain.deps.json
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\bin\Debug\net8.0\RamSoft.Domain.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\bin\Debug\net8.0\RamSoft.Domain.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\refint\RamSoft.Domain.dll
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\RamSoft.Domain.pdb
+C:\Users\mahendar\OneDrive\Desktop\Test\RamSoftAssessment\backend\RamSoft.Domain\obj\Debug\net8.0\ref\RamSoft.Domain.dll

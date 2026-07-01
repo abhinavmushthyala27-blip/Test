@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r6PWpnYQxT4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahendar\\OneDrive\\Desktop\\Test\\RamSoftAssessment\\backend\\RamSoft.Application\\RamSoft.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahendar\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
